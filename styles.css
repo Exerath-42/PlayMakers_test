@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 40px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+#badgeForm {
+    margin-bottom: 20px;
+}
+
+.upload-btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.upload-btn:hover {
+    background-color: #2980b9;
+}
+
+#badgeInput {
+    display: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#validationResult {
+    color: #FF6347;
+    font-weight: bold;
+}
+
+#badgeContainer {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #3498db;
+    margin: 0 auto;
+    position: relative;
+}
+
+#badgeContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#badgeContainer img:hover {
+    transform: scale(1.1);
+}

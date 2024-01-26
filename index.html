@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Badge Uploader</h1>
+        <form id="badgeForm">
+            <label for="badgeInput" class="upload-btn">
+                <span>Choose Badge</span>
+            </label>
+            <input type="file" id="badgeInput" accept=".png">
+        </form>
+        <div id="badgeContainer">
+            <img src="placeholder-image.png" alt="Placeholder Image">
+        </div>
+        <p id="validationResult"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.4.0/color-thief.min.js" integrity="sha512-r2yd2GP87iHAsf2K+ARvu01VtR7Bs04la0geDLbFlB/38AruUbA5qfmtXwXx6FZBQGJRogiPtEqtfk/fnQfaYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
+
+
